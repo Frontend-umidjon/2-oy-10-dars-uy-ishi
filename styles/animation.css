@@ -1,0 +1,35 @@
+.nav__logo{
+    transform: translateY(-40px);
+    opacity: 0;
+    animation: logo .5s ease-out forwards;
+}
+@keyframes logo {
+    to{
+        transform: translateY(0);
+        opacity: 1; 
+    }
+    
+}
+.nav__item{
+    transform: translateY(-40px);
+    opacity: 0;
+    animation: nav .5s ease-out forwards; 
+}
+@keyframes nav {
+    to{
+        transform: translateY(0);
+        opacity: 1; 
+    }
+    
+}
+.nav__actions{
+    transform: translateX(50px);
+    opacity: 0;
+    animation: cart 1s ease-in 1.3s  forwards;
+}
+@keyframes cart {
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

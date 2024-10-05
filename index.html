@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav__logo">
+                    <img src="./images/Logo.svg" alt="">
+                </div>
+                <ul class="nav__list">
+                    <li style="animation-delay: 0.5s;" class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li style="animation-delay: 0.7s;" class="nav__item"><a class="nav__link" href="#">Brands
+                            &blacktriangledown;
+                        </a>
+                        <ul class="dropdown__list">
+                            <li class="dropdown__item"><a class="dropdown__link" href="#">Categories</a></li>
+                            <li class="dropdown__item"><a class="dropdown__link" href="#">Popular</a></li>
+                            <li class="dropdown__item"><a class="dropdown__link" href="#">404 Page</a></li>
+                        </ul>
+                    </li>
+                    <li style="animation-delay: 0.9s;" class="nav__item"><a class="nav__link" href="#">Recent
+                            Products</a></li>
+                    <li style="animation-delay: 1.1s;" class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+                    <li style="animation-delay: 1.3s;" class="nav__item"><a class="nav__link" href="#">About</a></li>
+                    <div class="menu"><i class="fa-solid fa-bars"></i></div>
+                </ul>
+                <div class="nav__actions">
+                    <span class="menu"><i class="fa-solid fa-bars"></i></span>
+                    <button class="nav__btn"><img src="./images/Search.svg" alt=""></button>
+                    <button class="nav__btn"><img src="./images/Person.svg" alt=""></button>
+                    <button class="nav__btn"><img src="./images/Shopping Cart.png" alt="">
+                        <span class="counter">
+                            1
+                        </span></button>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="hero">
+                <div data-aos="fade-right" data-aos-duration="1700" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    class="hero__content">
+                    <h1 class="hero__heading">Discover Most Suitable Watches</h1>
+                    <p class="hero__text">Find the best, reliable, and cheap smart watches here. We focus on product
+                        quality. Here you can find smart watches of almost all brands. So why you are waiting? Just
+                        order now!</p>
+                    <div class="hero__search-bar">
+                        <div class="search"><i class="fa-solid fa-magnifying-glass search__icon"></i></div>
+                        <input type="text" class="search__input" placeholder="Find the best brands">
+                        <input class="search__submit" type="submit" value="Search">
+                    </div>
+                </div>
+                <img data-aos="fade-up" data-aos-duration="2000" src="./images/hero.png" alt="" class="hero__image ">
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="rec_line">
+                <div data-aos="fade-up" data-aos-duration="800" class="rec__card">
+                    <img src="./images/apple.png" alt="" class="rec__image">
+                    <div class="rec_content">
+                        <h3 class="rec__heading">Apple</h3>
+                        <p class="rec__text">Apple is one of the most famous smart watches providing company.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1600" class="rec__card">
+                    <img src="./images/redmi.png" alt="" class="rec__image">
+                    <div class="rec_content">
+                        <h3 class="rec__heading">Xiaomi</h3>
+                        <p class="rec__text">Xiaomi smart watches are produced by MI company.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2400" class="rec__card">
+                    <img src="./images/Fit Bit.png" alt="" class="rec__image">
+                    <div class="rec_content">
+                        <h3 class="rec__heading">FitBit</h3>
+                        <p class="rec__text">FitBit smart watches are best for there health and fitness features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div data-aos="zoom-in-up" class="products__content">
+                <p class="products__text">
+                    Find your favourite smart watch.
+                </p>
+                <h2 class="products__heading">
+                    Our Latest Products
+                </h2>
+            </div>
+            <div class="products__wrapper">
+                <div data-aos="zoom-out-up" class="products__card">
+                    <div class="card__image">
+                        <img src="./images/apple1.png" alt="">
+                        <div class="buy">
+                            <img src="./images/Shopping Cart.png" alt="">
+                        </div>
+                        <div class="favourites">
+                            <img src="./images/heart.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="card__heading">
+                            Apple Smart I
+                        </h3>
+                        <img src="./images/stars.png" alt="">
+                        <div class="price__list">
+                            <del class="card__deleted">$300.00</del>
+                            <p class="card__price">$255.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-up" class="products__card">
+                    <div class="card__image">
+                        <img src="./images/apple2.png" alt="">
+                        <div class="buy">
+                            <img src="./images/Shopping Cart.png" alt="">
+                        </div>
+                        <div class="favourites">
+                            <img src="./images/heart.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="card__heading">
+                            Apple Smart II
+                        </h3>
+                        <img src="./images/stars.png" alt="">
+                        <div class="price__list">
+                            <del class="card__deleted">$300.00</del>
+                            <p class="card__price">$255.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-up" class="products__card">
+                    <div class="card__image">
+                        <img src="./images/apple3.png" alt="">
+                        <div class="buy">
+                            <img src="./images/Shopping Cart.png" alt="">
+                        </div>
+                        <div class="favourites">
+                            <img src="./images/heart.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="card__heading">
+                            Apple Smart III
+                        </h3>
+                        <img src="./images/stars.png" alt="">
+                        <div class="price__list">
+                            <del class="card__deleted">$300.00</del>
+                            <p class="card__price">$255.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-up" class="products__card">
+                    <div class="card__image">
+                        <img src="./images/apple4.png" alt="">
+                        <div class="buy">
+                            <img src="./images/Shopping Cart.png" alt="">
+                        </div>
+                        <div class="favourites">
+                            <img src="./images/heart.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="card__heading">
+                            Apple Smart IV
+                        </h3>
+                        <img src="./images/stars.png" alt="">
+                        <div class="price__list">
+                            <del class="card__deleted">$300.00</del>
+                            <p class="card__price">$255.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-up" class="products__card">
+                    <div class="card__image">
+                        <img src="./images/Samsung.png" alt="">
+                        <div class="buy">
+                            <img src="./images/Shopping Cart.png" alt="">
+                        </div>
+                        <div class="favourites">
+                            <img src="./images/heart.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="card__heading">
+                            Samsung Watch Pro
+                        </h3>
+                        <img src="./images/stars.png" alt="">
+                        <div class="price__list">
+                            <del class="card__deleted">$300.00</del>
+                            <p class="card__price">$255.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-up" class="products__card">
+                    <div class="card__image">
+                        <img src="./images/fitbit_max.png" alt="">
+                        <div class="buy">
+                            <img src="./images/Shopping Cart.png" alt="">
+                        </div>
+                        <div class="favourites">
+                            <img src="./images/heart.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card__content">
+                        <h3 class="card__heading">
+                            Fitbit Max 1
+                        </h3>
+                        <img src="./images/stars.png" alt="">
+                        <div class="price__list">
+                            <del class="card__deleted">$300.00</del>
+                            <p class="card__price">$255.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-down" class="products__actions">
+                <button class="products__btn">
+                    View More
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div data-aos="zoom-in-up" class="products__content">
+                <p class="products__text">
+                    Here are our some of the best clients.
+                </p>
+                <h2 class="products__heading">
+                    What People Say About Us
+                </h2>
+            </div>
+            <div class="testimonial__line">
+                <div data-aos="fade-right" class="testimonial">
+                    <img src="./images/testimonial.png" alt="" class="testimonial__image">
+                    <div class="testimonial__content">
+                        <h3 class="testimonial__heading">Hamza Faizi</h3>
+                        <p class="testimonial__text">Don’t waste time, just order! This is the best website to puschase
+                            smart watches.</p>
+                        <img src="./images/stars.png" alt="">
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="testimonial">
+                    <img src="./images/testimonial2.png" alt="" class="testimonial__image">
+                    <div class="testimonial__content">
+                        <h3 class="testimonial__heading">Hafiz Huzaifa</h3>
+                        <p class="testimonial__text">I’ve been purchasing smart watches of Mohid for a long time. All
+                            the products are good quality.</p>
+                        <img src="./images/stars.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="dots">
+                <img src="./images/Dots.png" alt="">
+            </div>
+        </div>    
+    </section>
+    <section>
+        <div class="container">
+            <div class="newsletter">
+                <div data-aos="fade-right" class="newsletter__content">
+                    <h2 class="newsletter__heading">Subscribe To Newsletter</h2>
+                    <p class="newsletter__text">Get free guide about smart watches daily. </p>
+                    <div class="newsletter__actions">
+                        <input class="email-input" type="email" placeholder="Enter Email Address">
+                        <input class="email-submit" type="submit" value="Subscribe">
+                    </div>
+                </div>
+                <img data-aos="fade-up" src="./images/apple1.png" alt="" class="newsletter__image">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">Copyright @ 2022 | Mohid</p>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>

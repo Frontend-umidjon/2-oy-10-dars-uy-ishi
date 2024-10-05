@@ -1,0 +1,42 @@
+@media (max-width:1200px) {
+    .rec__card{
+        width: calc(50% - 10px);
+    }
+    .products__card{
+        width: calc(50% - 25px);
+    }
+    
+}
+@media (max-width:1100px) {
+    .hero{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:900px) {
+    .nav__list{
+        display: none;
+
+    }
+    .menu{
+        display: block;
+    }
+}
+@media (max-width:990px) {
+    .rec__card{
+        width: 100%;
+    }
+    .testimonial{
+        width: 100%;
+    }
+    .newsletter{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+}
+@media (max-width: 768px) {
+    .products__card {
+        flex-basis: 100%; /* Одно карточка в строке на узких экранах */
+        margin-bottom: 20px;
+    }
+}
